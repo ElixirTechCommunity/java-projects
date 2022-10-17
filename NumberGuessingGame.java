@@ -35,7 +35,7 @@ public class NumberGuessingGame {
         if (i == K) {
             System.out.println("You have exhausted "+ K +" trials.");
             System.out.println("The number was "+ number);
-            System.out.println("Game Restarted");
+            System.out.println("Game has Restarted");
             guessingNumberGame();
 
         }
