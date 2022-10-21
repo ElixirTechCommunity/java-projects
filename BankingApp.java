@@ -28,7 +28,8 @@ class BankDetails {
         long amt;  
         System.out.println("Enter the amount you want to deposit: ");  
         amt = sc.nextLong();  
-        bal = bal + 0;  
+        bal = bal + amt;  //solved
+        // --> increamenting a balance value after each deposit ...
     }  
     //method to withdraw money  
     public void withdrawal() {  
