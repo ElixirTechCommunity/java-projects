@@ -9,7 +9,7 @@ public class NumberGuessingGame {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int number = 1 + (float)(100* Math.random());
+		int number = 1 + (int)(100* Math.random());
 		
 		int K = 5;
 		int i, guess;
