@@ -45,7 +45,7 @@ class BankDetails {
     }  
     //method to search an account number  
     public boolean search(String acNo) {  
-        String res= false;
+        boolean res= false;
         if (accNo.equals(acNo)) {  
             showAccount();  
             return res;  
