@@ -85,13 +85,13 @@ public class BankingApp {
                         for (int i = 0; i < Cust.length; i++) {  
                             flag = Cust[i].search(acNo);  
                             if (flag) {  
-                                continue;  
+                                break;  
                             }  
                         }  
                         if (!flag) {  
                             System.out.println("Search failed! Account doesn't exist..!!");  
                         }  
-                        continue;  
+                        break;  
                     case 3:  
                         System.out.print("Enter Account no. : ");  
                         acNo = sc.next();  
