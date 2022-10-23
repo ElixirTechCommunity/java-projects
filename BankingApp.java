@@ -126,9 +126,9 @@ public class BankingApp {
                         System.out.println("See you soon...");  
                         break;  
                 }  
-            };
+            }
             while (ch != 5)  
         }    
-
+}
 
         
