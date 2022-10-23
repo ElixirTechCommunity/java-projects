@@ -35,7 +35,7 @@ class BankDetails {
     public void withdrawal() {  
         long amount;  
         System.out.println("Enter the amount you want to withdraw: ");  
-        amount = sc.nextInt();  
+        amount = sc.nextLong();  
         if (bal >= amount) {  
             bal = bal - amount;  
             System.out.println("Balance after withdrawal: " + bal);  
