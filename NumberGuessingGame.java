@@ -33,9 +33,13 @@ public class NumberGuessingGame {
 		}
 
 		if (i == K) {
-			System.out.println("You have exhausted"+ " K trials.");
-			guessingNumberGame();
+			System.out.println("You have exhausted"+ " 5 trials.");
 			System.out.println("The number was " + number);
+			System.out.println(" press -1 to exit OR Any other key to Restart the Game");
+           		 n=sc.nextInt();
+            		if(n!=-1){
+               			 guessingNumberGame();
+           		 }
 		}
 	}
 
@@ -46,3 +50,6 @@ public class NumberGuessingGame {
 		guessingNumberGame();
 	}
 }
+
+
+
